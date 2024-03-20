@@ -1,7 +1,7 @@
 .PHONY: download-data
-download-data: FILE := data/list.csv
 download-data:
-	./download-data.sh > ${FILE}
+	mkdir -p data
+	./download-data.sh > data/list.csv
 
 .PHONY: setup-venv
 setup-venv:
