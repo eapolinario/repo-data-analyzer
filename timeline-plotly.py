@@ -34,4 +34,4 @@ fig.update_layout(
 fig.show()
 
 # To save the figure as an HTML file which supports interactivity
-fig.write_html("interactive_pr_timeline_stacked_bars.html")
+fig.write_html("data/interactive_pr_timeline_stacked_bars.html")

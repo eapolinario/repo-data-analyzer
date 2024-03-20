@@ -35,4 +35,4 @@ fig.update_layout(hovermode='closest')
 fig.show()
 
 # To save the figure as an HTML file which supports interactivity
-fig.write_html("interactive_pr_timeline.html")
+fig.write_html("data/interactive_pr_timeline.html")
